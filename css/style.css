@@ -1,0 +1,179 @@
+/*
+font-family: 'Roboto', sans-serif;
+
+font-family: gelo,serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+h1,
+h2 {
+    font-family: gelo, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+.showcase {
+    background-color: rgba(242, 188, 121, 1);
+    color: black;
+    height: 100vh;
+    position: relative;
+}
+
+.showcase:before {
+    content: '';
+    /*    background: url('../img/landingpage/single.JPG') no-repeat center center/cover;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    z-index: 0;
+}
+
+.showcase .showcase-inner {
+    position: absolute;
+
+    height: 100%;
+    width: 40%
+}
+
+.showcase-inner h1 {
+    font-size: 4rem;
+}
+
+.showcase-inner p {
+    font-size: 1.3rem;
+}
+
+.svg-ol {
+    height: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background-color: rgba(242, 188, 121, 0.8);
+    color: black;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: opacity 0.5s ease-in;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* KAMPAGNE */
+#kampagne {
+    background-color: #294375;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#kampagne .col1 {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+#kampagne .col-first {
+    background-color: #F2BC79;
+    margin: 50px 0 50px 50px;
+}
+
+#kampagne .col-second img {
+    width: 100%;
+    margin: 50px 100px 50px 0;
+}
+
+/* STATISTIK */
+#statistik {
+    color: #F2BC79;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#statistik .col1 {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+/*VIRKER IKKE*/
+#statistik .col1 img {
+    align-content: center;
+    justify-content: center;
+}
+
+#statistik .col1 .col-third {
+    margin-left: 300px;
+}
+
+#statistik .col1 .col-forth {
+    margin: 50px 100px 50px 0;
+}
+
+/* SKÅÅL */
+#skaal {
+    background-color: #90BEB1;
+}
+
+/* SOME */
+#some {
+    background-color: #D4CFC9;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.some {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+
+    /*  GØR INGEN TING  */
+    justify-content: center;
+    align-content: center;
+}
+
+#some .col3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.body2 {
+    background-color: #D4CFC9;
+}
+
+#portfolio {
+    background-color: #294375;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .col4 {
+    color: #F2BC79;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
